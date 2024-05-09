@@ -19,4 +19,12 @@ public class TablaBService {
     public List<TablaBEntity> getAll(){
         return this.tablaBRepository.findAll();
     }
+
+    public TablaBEntity save(TablaBEntity tablaB){
+        return this.tablaBRepository.save(tablaB);
+    }
+
+    public boolean exist(Long idTablaB){
+        return this.tablaBRepository.existsById(idTablaB);
+    }
 }
