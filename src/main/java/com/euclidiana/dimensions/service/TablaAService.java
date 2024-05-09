@@ -19,4 +19,12 @@ public class TablaAService {
     public List<TablaAEntity> getAll(){
         return this.tablaARepository.findAll();
     }
+
+    public TablaAEntity save(TablaAEntity tablaA){
+        return this.tablaARepository.save(tablaA);
+    }
+
+    public boolean exist(Long idTablaA){
+        return this.tablaARepository.existsById(idTablaA);
+    }
 }
