@@ -6,9 +6,9 @@ INSERT INTO `tabla_a` (column_x, column_y, obs_a) VALUES (26,50,"Bajos"),
 (3,22,"Bajos"),
 (30,8,"Bajos"),
 (2,11,"Bajos"),
-(3,8,"Bajos");
-
-INSERT INTO `tabla_b` (column_x, column_y, obs_b) VALUES (52,74,"Altos"),
+(3,8,"Bajos"),
+(50,70,"Altos"),
+(52,74,"Altos"),
 (60,66,"Altos"),
 (62,74,"Altos"),
 (67,70,"Altos"),
@@ -23,4 +23,3 @@ INSERT INTO `tabla_b` (column_x, column_y, obs_b) VALUES (52,74,"Altos"),
 (80,89,"Altos");
 
 SELECT * FROM tabla_a;
-SELECT * FROM tabla_b;
